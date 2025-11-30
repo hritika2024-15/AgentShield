@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Environment Variables
+.env
+# Keep the example file
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Data & Generated Files
+data/snapshots/
+data/incident_history.json
+data/final_report.md
+data/*.mp4
+# Include sample video for demo
+!data/sample_video.mp4
+# Keep the data directory structure
+!data/.gitkeep
+
+# YOLO Model Weights
+*.pt
+yolov8*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# OS
+.DS_Store
+Thumbs.db
+*.orig
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~*
